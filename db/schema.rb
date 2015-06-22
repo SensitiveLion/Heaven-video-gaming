@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 20150622172148) do
   end
 
   create_table "accessory_types", force: :cascade do |t|
-    t.string "name", null: false
+    t.string "type", null: false
   end
 
   create_table "companies", force: :cascade do |t|
